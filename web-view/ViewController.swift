@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let url = NSURL (string: "https://apple.com");
+        let url = NSURL (string: "https://kacm.top/1322660847922843769");
         let requestObj = NSURLRequest(url: url! as URL);
         webView.loadRequest(requestObj as URLRequest);
         
